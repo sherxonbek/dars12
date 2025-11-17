@@ -1,0 +1,187 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 50%;
+   height: 50%;
+}
+
+header {
+   width: 100%;
+   height: 118px;
+}
+
+.container {
+   max-width: 1200px;
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   padding: 0 20px;
+}
+
+.hero1 {
+   width: 100%;
+   height: 47px;
+   background-color: #B36050;
+}
+
+.hero1 .bosh {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #F1D3B9;
+}
+
+.hero2 {
+   width: 100%;
+   height: 71px;
+   background-color: #F6F4EC;
+}
+
+.hero2 .elemetlar {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+
+.home,
+.rasim1,
+.contacts {
+   width: 500px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.hero2 .elemetlar .home {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 35px;
+}
+
+.hero2 .elemetlar .home a {
+   text-decoration: none;
+   display: flex;
+   justify-content: space-around;
+   font-size: 18px;
+   color: #B36050;
+   transition: .3s all ease-in-out;
+}
+
+.hero2 .elemetlar .home a:hover {
+   border-bottom: 1px solid black;
+}
+
+
+.rasim1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contacts {
+   display: flex;
+   justify-content: end;
+}
+
+.contacts .eco {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   width: 120px;
+   align-items: center;
+   height: 100%;
+}
+
+.contacts .eco a {
+   text-decoration: none;
+   font-size: 18px;
+   color: #B45F4D;
+}
+
+.contacts .eco a:hover{
+   border-bottom: 1px solid black;
+}
+
+.contacts .eco .rasimcha {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
+
+
+.contacts .eco .rasiimcha img {
+   width: 20px;
+   height: 20px;
+}
+
+.mina {
+   display: flex;
+   padding: 30px 10px;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   color: #B45F4D;
+}
+
+main{
+   width: 100%;
+   height: 100%;
+}
+
+main .rasim001{
+   max-width: 1440px ;
+   width: 100%;
+   height: 435px;
+}
+
+main .rasim001 img{
+   width: 100%;
+   height: 100%;
+}
+
+.mainsection{
+   width: 100%;
+   height: 304px;
+   background-color: #A9AE8D;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 35px;
+}
+
+.mainsection h2{
+   font-size: 18px;
+   color: #F6F4EC;
+}
+
+.mainsection h1{
+   font-size: 33px;
+   color: #F6F4EC;
+}
+
+.mainsection button{
+   padding: 12px 15px;
+   background-color: #B45F4D;
+   font-size: 17px;
+   border: none;
+   color: white;
+
+}
+
+.rams img {
+   display: flex;
+   width: 30%;
+   margin: 30px; 
+}
